@@ -1,0 +1,1212 @@
+body {
+  background-color: #FBE4FF;
+  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.app{
+ max-width: 1200px;
+ padding: 15px;
+ margin: 0 auto;
+ text-align: center;
+  
+}
+
+
+.button-Diary {
+  background-color: #C5A3FF;
+  color: black;
+  padding: 20px 40 px;
+  border: none;
+  outline:  none;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .3s, ;
+  margin: 6px;
+  
+}
+
+.button-Diary:focus {
+  transform: scale(1.03);
+  
+
+}
+
+.button-Diary:hover {
+  transform: scale(1.03);
+  
+  
+}
+
+.button-Diary:active {
+  transform: scale(0.97);
+}
+
+.button-Plans {
+  background-color: #C5A3FF;
+  color: black;
+  padding: 20px 40 px;
+  border: none;
+  outline:  none;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .3s;
+  margin: 6px;
+  
+}
+
+.button-Plans:focus {
+  transform: scale(1.03);
+}
+
+.button-Plans:hover {
+  transform: scale(1.03);
+}
+
+.button-Plans:active {
+  transform: scale(0.97);
+}
+
+.button-Goal {
+  background-color: #C5A3FF;
+  color: black;
+  padding: 20px 40 px;
+  border: none;
+  outline:  none;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .3s;
+  margin: 6px;
+  
+}
+
+.button-Goal:focus {
+  transform: scale(1.03);
+  
+}
+
+.button-Goal:hover {
+  transform: scale(1.03);
+}
+
+.button-Goal:active {
+  transform: scale(0.97);
+}
+
+.button-Timetable {
+  background-color: #C5A3FF;
+  color: black;
+  padding: 20px 40 px;
+  border: none;
+  outline:  none;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .3s;
+  margin: 6px;
+  
+}
+
+.button-Timetable:focus {
+  transform: scale(1.03);
+}
+
+.button-Timetable:hover {
+  transform: scale(1.03);
+}
+
+.button-Timetable:active {
+  transform: scale(0.97);
+}
+
+.button-Wishlist {
+  background-color: #C5A3FF;
+  color: black;
+  padding: 20px 40 px;
+  border: none;
+  outline:  none;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .3s;
+  margin: 6px;
+}
+
+.button-Wishlist:focus {
+  transform: scale(1.03);
+}
+
+.button-Wishlist:hover {
+  transform: scale(1.03);
+}
+
+.button-Wishlist:active {
+  transform: scale(0.97);
+}
+
+.button-PastYear {
+  background-color: #C5A3FF;
+  color: black;
+  padding: 20px 40 px;
+  border: none;
+  outline:  none;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .3s;
+  margin: 6px;
+}
+
+.button-PastYear:focus {
+  transform: scale(1.03);
+}
+
+.button-PastYear:hover {
+  transform: scale(1.03);
+}
+
+.button-PastYear:active {
+  transform: scale(0.97);
+}
+
+.button-PastMonth {
+  background-color: #C5A3FF;
+  color: black;
+  padding: 20px 40 px;
+  border: none;
+  outline:  none;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: transform .3s;
+  margin: 6px;
+}
+
+.button-PastMonth:focus {
+  transform: scale(1.03);
+}
+
+.button-PastMonth:hover {
+  transform: scale(1.03);
+}
+
+.button-PastMonth:active {
+  transform: scale(0.97);
+}
+
+.Wishlist{
+  padding: 50px;
+}
+
+.word-wishlist{
+  color: blueviolet;
+}
+
+.button-newWishlist {
+  background-color: #FF9CEE; /* Исходный цвет */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 15px;
+}
+
+
+.button-newWishlist:hover {
+  background-color: #ACE7FF;
+  transform: scale(1.03);
+}
+
+.button-newWishlist:active {
+  background-color: #ACE7FF;
+  transform: scale(0.97);
+}
+
+#input-wishlist{
+  padding: 15px 32px 15px 16px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+  
+}
+
+.Wish-delete {
+  padding: 16px 22px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+
+.Wish-delete:hover {
+  transform: scale(1.03)
+}
+
+.Wish-delete:active {
+  transform: scale(0.97);
+}
+
+.checkbox-wishlist {
+  width: 20px;
+  height: 20px;
+ 
+}
+
+.PastYear{
+  padding: 50px;
+}
+.word-pastYear{
+  color:blueviolet;
+}
+
+.button-New-Past-Year {
+  background-color: #FF9CEE; /* Исходный цвет */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 15px;
+}
+
+.container-PastYear{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button-New-Past-Year:hover {
+  background-color: #ACE7FF;
+  transform: scale(1.03);
+}
+
+.button-New-Past-Year:active {
+  background-color: #ACE7FF;
+  transform: scale(0.97);
+}
+
+
+#textarea-pastYear{
+  padding: 15px 32px 15px 16px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+}
+
+.select-PastYear {
+  width: 80x;
+  position: relative;
+}
+
+.select-PastYear select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 75px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-PastYear select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-PastYear:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+
+.button-PastYearDelete {
+  padding: 16px 22px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+ 
+}
+
+
+.button-PastYearDelete:hover {
+  transform: scale(1.03)
+}
+
+.button-PastYearDelete:active {
+  transform: scale(0.97);
+}
+
+
+.PastMonth{
+  padding: 50px;
+}
+
+.word-pastMonth {
+  color:blueviolet;
+}
+
+.button-New-Past-Month {
+  background-color: #FF9CEE; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 15px;
+}
+
+
+.button-New-Past-Month:hover {
+  background-color: #ACE7FF;
+  transform: scale(1.03);
+}
+
+.button-New-Past-Month:active {
+  background-color: #ACE7FF;
+  transform: scale(0.97);
+}
+
+.container-PastMonth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#textarea-pastMonth{
+  padding: 15px 32px 15px 16px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+}
+
+.select-PastMonth {
+  width: 115x;
+  position: relative;
+}
+
+.select-PastMonth select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 115px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-PastMonth select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-PastMonth:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+
+.button-PastMonthDelete {
+  padding: 16px 22px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+ 
+}
+
+
+.button-PastMonthDelete:hover {
+  transform: scale(1.03)
+}
+
+.button-PastMonthDelete:active {
+  transform: scale(0.97);
+}
+
+
+.Goal{
+  padding: 50px;
+}
+
+.word-goal{
+  color: blueviolet;
+}
+
+.button-Goall {
+  background-color: #FF9CEE; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 15px;
+}
+
+
+.button-Goall:hover {
+  background-color: #ACE7FF;
+  transform: scale(1.03);
+}
+
+.button-Goall:active {
+  background-color: #ACE7FF;
+  transform: scale(0.97);
+}
+
+.container-Goal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#textarea-Goal{
+  padding: 15px 32px 15px 16px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+}
+
+.select-Goal {
+  width: 80x;
+  position: relative;
+}
+
+.select-Goal select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 80px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-Goal select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-Goal:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+
+.button-GoalDelete {
+  padding: 16px 22px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+ 
+}
+
+
+.button-GoalDelete:hover {
+  transform: scale(1.03)
+}
+
+.button-GoalDelete:active {
+  transform: scale(0.97);
+}
+
+.Diarys{
+  padding: 50px;
+}
+.word-diary {
+  color:blueviolet;
+}
+
+.button-New-Diarys {
+  background-color: #FF9CEE; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 15px;
+}
+
+
+.button-New-Diarys:hover {
+  background-color: #ACE7FF;
+  transform: scale(1.03);
+}
+
+.button-New-Diarys:active {
+  background-color: #ACE7FF;
+  transform: scale(0.97);
+}
+
+.container-Diarys{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#textarea-Diarys{
+  padding: 15px 32px 15px 16px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+}
+
+.select-Diarys-Day {
+  width: 60px;
+  position: relative;
+}
+
+.select-Diarys-Day select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 60px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-Diarys-Day select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-Diarys-Day:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+.select-Diarys-Month {
+  width: 115px;
+  position: relative;
+}
+
+.select-Diarys-Month select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 115px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-Diarys-Month select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-Diarys-Month:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+.select-Diarys-Year {
+  width: 80px;
+  position: relative;
+}
+
+.select-Diarys-Year select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 80px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-Diarys-Year select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-Diarys-Year:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+.button-DiatysDelete {
+  padding: 16px 22px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+ 
+}
+
+
+.button-DiatysDelete:hover {
+  transform: scale(1.03)
+}
+
+.button-DiatysDelete:active {
+  transform: scale(0.97);
+}
+
+.Planss{
+  padding: 50px;
+}
+
+.word-plans{
+  color: blueviolet;
+}
+
+
+.button-Planss {
+  background-color: #FF9CEE; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 15px;
+}
+
+
+.button-Planss:hover {
+  background-color: #ACE7FF;
+  transform: scale(1.03);
+}
+
+.button-Planss:active {
+  background-color: #ACE7FF;
+  transform: scale(0.97);
+}
+
+.select-Planss {
+  width: 115px;
+  position: relative;
+}
+
+.select-Planss select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 115px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-Planss select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-Planss:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+#input-Planss{
+  padding: 15px 32px 15px 16px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+  
+}
+
+.Planss-delete {
+  padding: 16px 22px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+
+.Planss-delete:hover {
+  transform: scale(1.03)
+}
+
+.Planss-delete:active {
+  transform: scale(0.97);
+}
+
+.container-Planss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#textarea-Planss{
+  padding: 5px 16px 5px 8px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+}
+
+.checkbox-Planss {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.delete-Planss {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+
+.delete-Planss:hover {
+  transform: scale(1.03)
+}
+
+.delete-Planss:active {
+  transform: scale(0.97);
+}
+
+.button-Plus-Planss {
+  padding: 16px 22px;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(228, 13, 221) 0%,
+    rgb(19, 212, 242) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+
+.button-Plus-Planss:hover {
+  transform: scale(1.03)
+}
+
+.button-Plus-Planss:active {
+  transform: scale(0.97);
+}
+
+.TimeT{
+  padding: 50px;
+}
+
+.word-timeTable{
+  color: blueviolet;
+}
+
+.button-New-TimeT {
+  background-color: #FF9CEE; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 15px;
+}
+
+
+.button-New-TimeT:hover {
+  background-color: #ACE7FF;
+  transform: scale(1.03);
+}
+
+.button-New-TimeT:active {
+  background-color: #ACE7FF;
+  transform: scale(0.97);
+}
+
+.container-TimeT{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 45px;
+}
+
+.button-Plus-TimeT {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(228, 13, 221) 0%,
+    rgb(19, 212, 242) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+
+}
+
+
+.button-Plus-TimeT:hover {
+  transform: scale(1.03)
+}
+
+.button-Plus-TimeT:active {
+  transform: scale(0.97);
+}
+
+.select-TimeT-Month {
+  width: 115px;
+  position: relative;
+
+}
+
+.select-TimeT-Month select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 115px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-TimeT-Month select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-TimeT-Month:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+
+
+#input-TimeT{
+  padding: 5px 16px 5px 8px;
+  margin: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCD3FF;
+  
+}
+
+.button-TimeT-delete {
+  padding: 14px 22px;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+
+.button-TimeT-delete:hover {
+  transform: scale(1.03)
+}
+
+.button-TimeT-delete:active {
+  transform: scale(0.97);
+}
+
+.container-Time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 45px;
+}
+
+.checkbox-Monday {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.checkbox-Tuesday {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.checkbox-Wednesday {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.checkbox-Thursday {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.checkbox-Friday {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.checkbox-Saturday {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.checkbox-Sunday {
+  width: 15px;
+  height: 15px;
+ 
+}
+
+.delete-TimeT {
+  padding: 5px 14px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 20, 204, 1) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+
+.delete-TimeT:hover {
+  transform: scale(1.03)
+}
+
+.delete-TimeT:active {
+  transform: scale(0.97);
+}
+
+.select-TimeT-Day {
+  width: 45px;
+  position: relative;
+}
+
+.select-TimeT-Day select {
+  height: 30px;
+  padding: 10px 10px;
+  line-height: 10px;
+  font-size: 11px;
+  width: 45px;
+  border: 1px solid #8c5ae4fb;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-TimeT-Day select:focus{
+  border-color: 4px solid #8c5ae4fb;
+}
+
+.select-TimeT-Day:after{
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -5px;
+  border-top: 8px solid #8c5ae4fb;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
